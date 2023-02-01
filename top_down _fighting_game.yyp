@@ -5,7 +5,9 @@
   "resources": [
     {"id":{"name":"O_Debug","path":"objects/O_Debug/O_Debug.yy",},"order":1,},
     {"id":{"name":"S_test","path":"sprites/S_test/S_test.yy",},"order":0,},
-    {"id":{"name":"O_player","path":"objects/O_player/O_player.yy",},"order":0,},
+    {"id":{"name":"O_player_1","path":"objects/O_player_1/O_player_1.yy",},"order":0,},
+    {"id":{"name":"S_test_fist","path":"sprites/S_test_fist/S_test_fist.yy",},"order":1,},
+    {"id":{"name":"O_player_1_fist","path":"objects/O_player_1_fist/O_player_1_fist.yy",},"order":2,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [

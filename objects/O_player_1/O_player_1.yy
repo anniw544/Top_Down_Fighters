@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "O_player",
+  "name": "O_player_1",
   "spriteId": {
     "name": "S_test",
     "path": "sprites/S_test/S_test.yy",

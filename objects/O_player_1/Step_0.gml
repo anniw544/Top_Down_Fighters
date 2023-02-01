@@ -1,5 +1,9 @@
 
+// player pos tracking
+global.Player1X = x
+global.Player1Y = y
 
+// player movement code
 var h_move = gamepad_axis_value(pad_num, gp_axislh);
 var v_move = gamepad_axis_value(pad_num, gp_axislv);
 
@@ -27,3 +31,10 @@ if ((h_move != 0) || (v_move != 0))
     x += h_move * 4;
     y += v_move * 4;
     }
+// player action code
+	var s_rt = gamepad_button_value(pad_num, gp_shoulderrb);
+	
+	if (s_rt = 1)
+	{
+		instance_create_layer(x,y,"instances",O_player_1_fist,)
+	}
